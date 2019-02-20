@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HumleyChallengeTests", "HumleyChallengeTests\HumleyChallengeTests.csproj", "{D1D8FC97-8F14-480D-B306-514B8AAAA884}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ViewLayer", "ViewLayer\ViewLayer.csproj", "{12831287-E83E-4478-A79C-1E14DF68CBBF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1D8FC97-8F14-480D-B306-514B8AAAA884}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1D8FC97-8F14-480D-B306-514B8AAAA884}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1D8FC97-8F14-480D-B306-514B8AAAA884}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1D8FC97-8F14-480D-B306-514B8AAAA884}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12831287-E83E-4478-A79C-1E14DF68CBBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12831287-E83E-4478-A79C-1E14DF68CBBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12831287-E83E-4478-A79C-1E14DF68CBBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12831287-E83E-4478-A79C-1E14DF68CBBF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC5D6E65-B28E-4499-9A87-A7A2DB3277AC}
+	EndGlobalSection
+EndGlobal

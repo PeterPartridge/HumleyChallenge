@@ -1,0 +1,14 @@
+C:\Users\PeterPlay\Source\Repos\HumleyChallengeTests\HumleyChallengeTests\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\PeterPlay\Source\Repos\HumleyChallengeTests\HumleyChallengeTests\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\PeterPlay\Source\Repos\HumleyChallengeTests\HumleyChallengeTests\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+C:\Users\PeterPlay\Source\Repos\HumleyChallengeTests\HumleyChallengeTests\bin\Debug\netcoreapp2.0\HumleyChallengeTests.deps.json
+C:\Users\PeterPlay\Source\Repos\HumleyChallengeTests\HumleyChallengeTests\bin\Debug\netcoreapp2.0\HumleyChallengeTests.runtimeconfig.json
+C:\Users\PeterPlay\Source\Repos\HumleyChallengeTests\HumleyChallengeTests\bin\Debug\netcoreapp2.0\HumleyChallengeTests.runtimeconfig.dev.json
+C:\Users\PeterPlay\Source\Repos\HumleyChallengeTests\HumleyChallengeTests\bin\Debug\netcoreapp2.0\HumleyChallengeTests.dll
+C:\Users\PeterPlay\Source\Repos\HumleyChallengeTests\HumleyChallengeTests\bin\Debug\netcoreapp2.0\HumleyChallengeTests.pdb
+C:\Users\PeterPlay\Source\Repos\HumleyChallengeTests\HumleyChallengeTests\obj\Debug\netcoreapp2.0\HumleyChallengeTests.csprojAssemblyReference.cache
+C:\Users\PeterPlay\Source\Repos\HumleyChallengeTests\HumleyChallengeTests\obj\Debug\netcoreapp2.0\HumleyChallengeTests.csproj.CoreCompileInputs.cache
+C:\Users\PeterPlay\Source\Repos\HumleyChallengeTests\HumleyChallengeTests\obj\Debug\netcoreapp2.0\HumleyChallengeTests.AssemblyInfoInputs.cache
+C:\Users\PeterPlay\Source\Repos\HumleyChallengeTests\HumleyChallengeTests\obj\Debug\netcoreapp2.0\HumleyChallengeTests.AssemblyInfo.cs
+C:\Users\PeterPlay\Source\Repos\HumleyChallengeTests\HumleyChallengeTests\obj\Debug\netcoreapp2.0\HumleyChallengeTests.dll
+C:\Users\PeterPlay\Source\Repos\HumleyChallengeTests\HumleyChallengeTests\obj\Debug\netcoreapp2.0\HumleyChallengeTests.pdb
