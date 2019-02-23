@@ -5857,11 +5857,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PeterPlay\\source\\repos\\HumleyChallengeTests\\HumleyChallengeTests\\HumleyChallengeTests.csproj",
+      "projectUniqueName": "C:\\Users\\PeterPlay\\Documents\\GitHub\\HumleyChallenge\\HumleyChallengeTests\\HumleyChallengeTests.csproj",
       "projectName": "HumleyChallengeTests",
-      "projectPath": "C:\\Users\\PeterPlay\\source\\repos\\HumleyChallengeTests\\HumleyChallengeTests\\HumleyChallengeTests.csproj",
+      "projectPath": "C:\\Users\\PeterPlay\\Documents\\GitHub\\HumleyChallenge\\HumleyChallengeTests\\HumleyChallengeTests.csproj",
       "packagesPath": "C:\\Users\\PeterPlay\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PeterPlay\\source\\repos\\HumleyChallengeTests\\HumleyChallengeTests\\obj\\",
+      "outputPath": "C:\\Users\\PeterPlay\\Documents\\GitHub\\HumleyChallenge\\HumleyChallengeTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

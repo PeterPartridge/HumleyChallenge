@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HumleyChallengeTests", "Hum
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ViewLayer", "ViewLayer\ViewLayer.csproj", "{12831287-E83E-4478-A79C-1E14DF68CBBF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business Layer", "Business Layer\Business Layer.csproj", "{D4F53C87-23B9-47F3-9DED-002E98C25AAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data Layer", "Data Layer\Data Layer.csproj", "{FF28FBA4-2CF4-479D-9681-5B2083A9E1FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{12831287-E83E-4478-A79C-1E14DF68CBBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12831287-E83E-4478-A79C-1E14DF68CBBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12831287-E83E-4478-A79C-1E14DF68CBBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4F53C87-23B9-47F3-9DED-002E98C25AAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4F53C87-23B9-47F3-9DED-002E98C25AAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4F53C87-23B9-47F3-9DED-002E98C25AAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4F53C87-23B9-47F3-9DED-002E98C25AAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF28FBA4-2CF4-479D-9681-5B2083A9E1FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF28FBA4-2CF4-479D-9681-5B2083A9E1FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF28FBA4-2CF4-479D-9681-5B2083A9E1FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF28FBA4-2CF4-479D-9681-5B2083A9E1FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

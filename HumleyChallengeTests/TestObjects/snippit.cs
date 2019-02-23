@@ -10,6 +10,7 @@ namespace HumleyChallengeTests.TestObjects
         public string description { get; set; }
         public string channelTitle { get; set; }
         public string liveBroadcastContent { get; set; }
-      
+        public string url { get; set; }
+
     }
 }

@@ -1,10 +1,11 @@
+using Data_Layer.classes;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SpaServices.AngularCli;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using System.IO;
 
 namespace ViewLayer
 {
@@ -26,7 +27,12 @@ namespace ViewLayer
             services.AddSpaStaticFiles(configuration =>
             {
                 configuration.RootPath = "ClientApp/dist";
+                
             });
+            services.AddOptions();
+
+            // Add our Config object so it can be injected
+          services.Configure<AppDetails>(Configuration.GetSection("AppDetails"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -39,7 +45,7 @@ namespace ViewLayer
             else
             {
                 app.UseExceptionHandler("/Error");
-                app.UseHsts();
+               // app.UseHsts();
             }
 
             app.UseHttpsRedirection();

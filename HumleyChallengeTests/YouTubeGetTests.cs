@@ -32,7 +32,7 @@ namespace HumleyChallengeTests
                 }
                 catch (HttpRequestException ex)
                 {
-                    throw new Exception();
+                    throw new Exception(ex.Message);
                 }
 
             }
@@ -57,7 +57,7 @@ namespace HumleyChallengeTests
                 }
                 catch (HttpRequestException ex)
                 {
-                    throw new Exception();
+                    throw new Exception(ex.Message);
                 }
 
             }
@@ -80,6 +80,10 @@ namespace HumleyChallengeTests
                 }
                 catch (UnauthorizedAccessException ex)
                 {
+                    StringBuilder error = new StringBuilder();
+                    error.AppendLine("Error unathorised access Youtube");
+                    error.AppendLine(ex.StackTrace);
+                    error.AppendLine(ex.Message);
                     throw new Exception($"Error unautherised acccess. {ex.Message}");
                 }
                 catch (HttpRequestException ex)
@@ -88,12 +92,16 @@ namespace HumleyChallengeTests
                 }
                 catch (Exception ex)
                 {
-                    throw new Exception(ex.Message);
+                    StringBuilder error = new StringBuilder();
+                    error.AppendLine("Error getting Data from Youtube");
+                    error.AppendLine(ex.StackTrace);
+                    error.AppendLine(ex.Message);
+                    throw new Exception(error.ToString());
                 }
 
             }
         }
-        [Fact]
+        [Fact] 
         public async Task GetDataWithCustomQuery()
         {
             StringBuilder youtubeQuery = new StringBuilder();
