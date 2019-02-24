@@ -6,6 +6,12 @@ namespace Business_Layer
 {
     public class YoutubeQuery
     {
+        /// <summary>
+        /// This will build the query to get info from youtube.
+        /// </summary>
+        /// <param name="appDetails"></param>
+        /// <param name="query"></param>
+        /// <returns></returns>
         public string build(AppDetails appDetails, string query)
         {
             StringBuilder youtubeQuery = new StringBuilder();

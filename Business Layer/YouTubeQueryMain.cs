@@ -12,6 +12,11 @@ namespace Business_Layer
         {
             _appDetails = appDetails;
         }
+        /// <summary>
+        /// Main method.
+        /// </summary>
+        /// <param name="query"></param>
+        /// <returns></returns>
         public async Task<YouTubeMasterResponse> runGetQuery(string query)
         {
             YouTubeMasterResponse YoutubeResponse = new YouTubeMasterResponse();

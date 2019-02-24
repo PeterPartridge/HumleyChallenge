@@ -8,6 +8,11 @@ namespace Data_Layer
 {
    public class YoutubeGetRequest
     {
+        /// <summary>
+        /// This method will get data from youtube using http client to run a get request.
+        /// </summary>
+        /// <param name="youtubeQuery"></param>
+        /// <returns></returns>
         public async Task<string> GetYouTubeData(string youtubeQuery)
         {
             using (HttpClient client = new HttpClient())
@@ -33,7 +38,7 @@ namespace Data_Layer
                 {
                     StringBuilder error = new StringBuilder();
                    
-                    error.AppendLine("Http error occured getting dsata from Youtube");
+                    error.AppendLine("Http error occured getting data from Youtube");
                     error.AppendLine(ex.StackTrace);
                     error.AppendLine(ex.Message);
                     throw new Exception(error.ToString());
