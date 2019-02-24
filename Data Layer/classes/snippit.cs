@@ -11,6 +11,7 @@ namespace Data_Layer.classes
         public string channelTitle { get; set; }
         public string liveBroadcastContent { get; set; }
         public string url { get; set; }
-
+        public string videoId { get; set; }
+        public string channelId { get; set; }
     }
 }

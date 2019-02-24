@@ -32,6 +32,7 @@ namespace Data_Layer
                 catch (HttpRequestException ex)
                 {
                     StringBuilder error = new StringBuilder();
+                   
                     error.AppendLine("Http error occured getting dsata from Youtube");
                     error.AppendLine(ex.StackTrace);
                     error.AppendLine(ex.Message);

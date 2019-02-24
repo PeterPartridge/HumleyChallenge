@@ -1,0 +1,14 @@
+C:\Users\PeterPlay\Documents\GitHub\HumleyChallenge\Business Layer\bin\Release\netstandard2.0\Business Layer.deps.json
+C:\Users\PeterPlay\Documents\GitHub\HumleyChallenge\Business Layer\bin\Release\netstandard2.0\Business Layer.dll
+C:\Users\PeterPlay\Documents\GitHub\HumleyChallenge\Business Layer\bin\Release\netstandard2.0\Business Layer.pdb
+C:\Users\PeterPlay\Documents\GitHub\HumleyChallenge\Business Layer\bin\Release\netstandard2.0\Data Layer.dll
+C:\Users\PeterPlay\Documents\GitHub\HumleyChallenge\Business Layer\bin\Release\netstandard2.0\Newtonsoft.Json.dll
+C:\Users\PeterPlay\Documents\GitHub\HumleyChallenge\Business Layer\bin\Release\netstandard2.0\Data Layer.pdb
+C:\Users\PeterPlay\Documents\GitHub\HumleyChallenge\Business Layer\bin\Release\netstandard2.0\Newtonsoft.Json.xml
+C:\Users\PeterPlay\Documents\GitHub\HumleyChallenge\Business Layer\obj\Release\netstandard2.0\Business Layer.csprojAssemblyReference.cache
+C:\Users\PeterPlay\Documents\GitHub\HumleyChallenge\Business Layer\obj\Release\netstandard2.0\Business Layer.csproj.CoreCompileInputs.cache
+C:\Users\PeterPlay\Documents\GitHub\HumleyChallenge\Business Layer\obj\Release\netstandard2.0\Business Layer.AssemblyInfoInputs.cache
+C:\Users\PeterPlay\Documents\GitHub\HumleyChallenge\Business Layer\obj\Release\netstandard2.0\Business Layer.AssemblyInfo.cs
+C:\Users\PeterPlay\Documents\GitHub\HumleyChallenge\Business Layer\obj\Release\netstandard2.0\Business Layer.csproj.CopyComplete
+C:\Users\PeterPlay\Documents\GitHub\HumleyChallenge\Business Layer\obj\Release\netstandard2.0\Business Layer.dll
+C:\Users\PeterPlay\Documents\GitHub\HumleyChallenge\Business Layer\obj\Release\netstandard2.0\Business Layer.pdb

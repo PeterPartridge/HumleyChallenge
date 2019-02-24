@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { DataService } from './data.service';
-import { YTRepsone } from './YTRepsone';
+import { DataService } from './service/data.service';
+import { YTRepsone } from './models/YTRepsone';
 
 @Component({
   selector: 'app-root',
@@ -10,7 +10,9 @@ import { YTRepsone } from './YTRepsone';
   ]
 })
 export class AppComponent {
-  repsonse: YTRepsone;
+  response: YTRepsone;
+  oldSearch: string;
+  validate: boolean;
   constructor(private dataCall: DataService) {
   
   }
@@ -19,12 +21,28 @@ export class AppComponent {
     
       }
   onSearch(searchTerm: string) {
-    if (searchTerm != "") {
-      this.dataCall.callApi(searchTerm).subscribe((result) => {
-        this.repsonse = result;
+    if (searchTerm != undefined) {
+      this.oldSearch = searchTerm;
+      this.validate = false;
+      this.dataCall.GetFirstResult(searchTerm).subscribe((result) => {
+        this.response = result;
+        console.log(result);
+      }
+      );
+    }
+    else {
+      this.validate = true;
+    }
+  }
+  onTurnPage(pageToken: string) {
+    if (pageToken != undefined) {
+      let searchTerm = "pageToken=" + pageToken + "&q=" + this.oldSearch
+      this.dataCall.PageResult(searchTerm).subscribe((result) => {
+        this.response = result;
         console.log(result);
       }
       );
     }
   }
+
 }

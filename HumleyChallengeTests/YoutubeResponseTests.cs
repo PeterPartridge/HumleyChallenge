@@ -189,6 +189,15 @@ namespace HumleyChallengeTests
                 {
                     result.snippits.Add(item["snippet"].ToObject<snippit>());
                     result.snippits[i].url = item["snippet"]["thumbnails"]["default"]["url"].ToObject<string>();
+                    if (item["id"]["videoId"] != null)
+                    {
+                        result.snippits[i].videoId = item["id"]["videoId"].ToObject<string>();
+                    }
+                    //stop chennelid auto population just incase issue arises.
+                    if (item["id"]["channelId"] != null)
+                    {
+                        result.snippits[i].channelId = item["id"]["channelId"].ToObject<string>();
+                    }
                     i++;
                 }
             }
@@ -210,6 +219,16 @@ namespace HumleyChallengeTests
             YouTubeMasterResponse result = buildYoutubeResponse(responseBody);
             Assert.True(result.snippits.Count == 5);
             Assert.True(string.IsNullOrEmpty(result.error));
+        }
+        [Fact]
+        public async Task GetYoutubeVideoId()
+        {
+            string responseBody = await GetYouTubeData("https://www.googleapis.com/youtube/v3/search?part=snippet&q=surf&key=AIzaSyB7MgMx73OCowlgVGIKiXEb94gumnYqh1Q");
+            // deserialise Json headers into Master response.
+            YouTubeMasterResponse result = buildYoutubeResponse(responseBody);
+            // some youtube channeles do not have a video ID, but all should have a channel ID.
+            //ChannelID has also populated without a cast
+            Assert.True(!string.IsNullOrEmpty(result.snippits[4].videoId));           
         }
     }
 }

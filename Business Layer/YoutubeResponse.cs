@@ -27,6 +27,15 @@ namespace Business_Layer
                 {
                     result.snippits.Add(item["snippet"].ToObject<snippit>());
                     result.snippits[i].url = item["snippet"]["thumbnails"]["default"]["url"].ToObject<string>();
+                    if (item["id"]["videoId"] != null)
+                    {
+                        result.snippits[i].videoId = item["id"]["videoId"].ToObject<string>();
+                    }
+                    //stop chennelid auto population just incase issue arises.
+                    if (item["id"]["channelId"] != null)
+                    {
+                        result.snippits[i].channelId = item["id"]["channelId"].ToObject<string>();
+                    }
                     i++;
                 }
             }

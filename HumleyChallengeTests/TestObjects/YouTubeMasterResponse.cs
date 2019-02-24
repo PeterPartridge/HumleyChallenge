@@ -13,5 +13,6 @@ namespace HumleyChallengeTests.TestObjects
         public string prevPageToken { get; set; }
         public List<snippit> snippits { get; set; }
         public string error { get; set; }
+
     }
 }

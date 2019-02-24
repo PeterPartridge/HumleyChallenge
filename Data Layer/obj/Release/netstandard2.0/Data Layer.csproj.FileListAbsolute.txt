@@ -1,0 +1,8 @@
+C:\Users\PeterPlay\Documents\GitHub\HumleyChallenge\Data Layer\bin\Release\netstandard2.0\Data Layer.deps.json
+C:\Users\PeterPlay\Documents\GitHub\HumleyChallenge\Data Layer\bin\Release\netstandard2.0\Data Layer.dll
+C:\Users\PeterPlay\Documents\GitHub\HumleyChallenge\Data Layer\bin\Release\netstandard2.0\Data Layer.pdb
+C:\Users\PeterPlay\Documents\GitHub\HumleyChallenge\Data Layer\obj\Release\netstandard2.0\Data Layer.csproj.CoreCompileInputs.cache
+C:\Users\PeterPlay\Documents\GitHub\HumleyChallenge\Data Layer\obj\Release\netstandard2.0\Data Layer.AssemblyInfoInputs.cache
+C:\Users\PeterPlay\Documents\GitHub\HumleyChallenge\Data Layer\obj\Release\netstandard2.0\Data Layer.AssemblyInfo.cs
+C:\Users\PeterPlay\Documents\GitHub\HumleyChallenge\Data Layer\obj\Release\netstandard2.0\Data Layer.dll
+C:\Users\PeterPlay\Documents\GitHub\HumleyChallenge\Data Layer\obj\Release\netstandard2.0\Data Layer.pdb

@@ -12,5 +12,6 @@ namespace Data_Layer.classes
         public string nextPageToken { get; set; }
         public string prevPageToken { get; set; }
         public List<snippit> snippits { get; set; }
+        public bool Error { get; set; }
     }
 }

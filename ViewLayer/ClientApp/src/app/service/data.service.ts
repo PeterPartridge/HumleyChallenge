@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { YTRepsone } from './YTRepsone';
+import { YTRepsone } from 'src/app/models/YTRepsone';
 import { throwError, Observable, BehaviorSubject, observable } from 'rxjs';
 import { catchError, map, mapTo, mergeMap } from 'rxjs/operators';
 import { HttpClient, HttpResponse, HttpHeaders, HttpParams, HttpErrorResponse } from '@angular/common/http';
@@ -13,12 +13,20 @@ export class DataService {
   constructor(private http: HttpClient) {
     this.currentURL = window.location.href;
   }
-  ytrepsonse: YTRepsone;
-  public callApi(searchTerm): Observable<YTRepsone> {
+  ytresponse: YTRepsone;
+  public GetFirstResult(searchTerm): Observable<YTRepsone> {
     const result = this.http.get<YTRepsone>(this.currentURL + 'api/YouTubeData/q='+ searchTerm).pipe(
       catchError(this.handleError.bind(this)));
     return result;
   }
+
+  public PageResult(searchTerm): Observable<YTRepsone> {
+    const result = this.http.get<YTRepsone>(this.currentURL + 'api/YouTubeData/'+ searchTerm).pipe(
+      catchError(this.handleError.bind(this)));
+    return result;
+  }
+
+   
   handleError(errorResponse: HttpErrorResponse) {
     if (errorResponse.error instanceof ErrorEvent) {
       console.error('Client Side Error :', errorResponse.error.message);

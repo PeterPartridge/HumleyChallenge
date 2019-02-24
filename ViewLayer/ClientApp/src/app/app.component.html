@@ -2,21 +2,56 @@
 <!--<router-outlet></router-outlet>-->
 <div class="container">
   <div class="row">
-    <div>
-      <h1>Search Youtube</h1>
+    <div class="col-12">
+      <h1>Search Youtube Videos</h1>
     </div>
   </div>
   <div class="row">
-    <form>
-      <div class="col-12">
-        <label>Search Youtube: <input type="text" (input)="searchTerm = $event.target.value" placeholder="input search term" required /></label>
+    <form class="col-12">
+      <div class="form-group">
+        <label>Search Youtube videos for: </label>
+        <input class="form-control" type="text" (input)="searchTerm = $event.target.value" placeholder="input search term" required />
+        <div *ngIf="validate">
+          <p>Please enter a search term to find videos.</p>
+        </div>
       </div>
-      <div class="col-12">
+      <div class="col-12 navbtn">
         <button class="btn btn-primary" type="submit" (click)="onSearch(searchTerm)">Search</button>
       </div>
     </form>
   </div>
   <div class="row">
-    {{repsonse}}
+    <div class="col-12" *ngIf="response != undefined">
+      <div *ngIf="!response.error; else errorTemplate">
+
+
+        <div *ngFor="let snip of response.snippits">
+          <div class="col-12">
+            <img class="img-responsive" src="{{snip.url}}" />
+            <h2><u><a href="https://www.youtube.com/watch?v={{snip.videoId}}">{{snip.title}}</a></u></h2>
+            <h3><a href="https://www.youtube.com/channel/{{snip.channelId}}">from {{snip.channelTitle}}</a></h3>
+            <p>{{snip.description}}</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6 navbtn">
+            <button class="btn btn-primary" (click)="onTurnPage(response.prevPageToken)">Back</button>
+          </div>
+          <div class="col-6 navbtn">
+            <button class="btn btn-primary" (click)="onTurnPage(response.nextPageToken)">Next Page</button>
+          </div>
+        </div>
+      </div>
+      <ng-template #errorTemplate>
+        <div class="row">
+          <div>
+            <h1 class="col-12">Woops an error has occured</h1>
+          </div>
+            <p>We may of run out of our daily allowance fomr YouTube or other issues have occured.</p>
+          <p>We are currently working to resolve this issue.</p>
+        </div>
+      </ng-template>
+    </div>
+    </div>
+
   </div>
-</div>

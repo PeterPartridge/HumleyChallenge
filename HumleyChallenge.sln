@@ -4,6 +4,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HumleyChallengeTests", "HumleyChallengeTests\HumleyChallengeTests.csproj", "{D1D8FC97-8F14-480D-B306-514B8AAAA884}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D4F53C87-23B9-47F3-9DED-002E98C25AAC} = {D4F53C87-23B9-47F3-9DED-002E98C25AAC}
+		{FF28FBA4-2CF4-479D-9681-5B2083A9E1FF} = {FF28FBA4-2CF4-479D-9681-5B2083A9E1FF}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ViewLayer", "ViewLayer\ViewLayer.csproj", "{12831287-E83E-4478-A79C-1E14DF68CBBF}"
 EndProject
