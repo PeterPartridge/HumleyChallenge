@@ -7,11 +7,16 @@
     </div>
   </div>
   <div class="row">
-    <div>
-      <label>Search Youtube: <input type="text" placeholder="input search term" required /></label>
-    </div>
-    <div>
-      <a class="btn">Search</a>
-    </div>
+    <form>
+      <div class="col-12">
+        <label>Search Youtube: <input type="text" (input)="searchTerm = $event.target.value" placeholder="input search term" required /></label>
+      </div>
+      <div class="col-12">
+        <button class="btn btn-primary" type="submit" (click)="onSearch(searchTerm)">Search</button>
+      </div>
+    </form>
+  </div>
+  <div class="row">
+    {{repsonse}}
   </div>
 </div>

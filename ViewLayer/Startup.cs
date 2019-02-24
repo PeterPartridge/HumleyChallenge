@@ -29,10 +29,9 @@ namespace ViewLayer
                 configuration.RootPath = "ClientApp/dist";
                 
             });
-            services.AddOptions();
-
-            // Add our Config object so it can be injected
-          services.Configure<AppDetails>(Configuration.GetSection("AppDetails"));
+              //adding app details through dependancy injection           
+            services.AddSingleton(Configuration.GetSection("AppDetails").Get<AppDetails>());
+        
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -45,7 +44,7 @@ namespace ViewLayer
             else
             {
                 app.UseExceptionHandler("/Error");
-               // app.UseHsts();
+                app.UseHsts();
             }
 
             app.UseHttpsRedirection();
