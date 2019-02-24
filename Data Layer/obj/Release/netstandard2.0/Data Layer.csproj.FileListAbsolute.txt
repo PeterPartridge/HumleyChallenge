@@ -6,3 +6,4 @@ C:\Users\PeterPlay\Documents\GitHub\HumleyChallenge\Data Layer\obj\Release\netst
 C:\Users\PeterPlay\Documents\GitHub\HumleyChallenge\Data Layer\obj\Release\netstandard2.0\Data Layer.AssemblyInfo.cs
 C:\Users\PeterPlay\Documents\GitHub\HumleyChallenge\Data Layer\obj\Release\netstandard2.0\Data Layer.dll
 C:\Users\PeterPlay\Documents\GitHub\HumleyChallenge\Data Layer\obj\Release\netstandard2.0\Data Layer.pdb
+C:\Users\PeterPlay\Documents\GitHub\HumleyChallenge\Data Layer\obj\Release\netstandard2.0\Data Layer.csprojAssemblyReference.cache

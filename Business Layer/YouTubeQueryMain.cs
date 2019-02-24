@@ -26,8 +26,9 @@ namespace Business_Layer
             catch(Exception ex)
             {
                 YoutubeResponse.Error = true;
-                //would like to email error to myslef.
-                //or save errors to folder.
+                //email error 
+                SendGridEmailer gridEmailer = new SendGridEmailer();
+              await gridEmailer.SendEmail(_appDetails.EmailKey, ex.Message);
             }
             finally
             {

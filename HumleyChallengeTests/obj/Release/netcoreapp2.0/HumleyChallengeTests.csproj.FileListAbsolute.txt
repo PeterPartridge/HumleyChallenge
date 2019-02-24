@@ -11,3 +11,4 @@ C:\Users\PeterPlay\Documents\GitHub\HumleyChallenge\HumleyChallengeTests\obj\Rel
 C:\Users\PeterPlay\Documents\GitHub\HumleyChallenge\HumleyChallengeTests\obj\Release\netcoreapp2.0\HumleyChallengeTests.AssemblyInfo.cs
 C:\Users\PeterPlay\Documents\GitHub\HumleyChallenge\HumleyChallengeTests\obj\Release\netcoreapp2.0\HumleyChallengeTests.dll
 C:\Users\PeterPlay\Documents\GitHub\HumleyChallenge\HumleyChallengeTests\obj\Release\netcoreapp2.0\HumleyChallengeTests.pdb
+C:\Users\PeterPlay\Documents\GitHub\HumleyChallenge\HumleyChallengeTests\obj\Release\netcoreapp2.0\HumleyChallengeTests.csprojAssemblyReference.cache
