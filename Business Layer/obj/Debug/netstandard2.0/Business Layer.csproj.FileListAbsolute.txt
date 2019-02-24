@@ -2,9 +2,7 @@ C:\Users\PeterPlay\Documents\GitHub\HumleyChallenge\Business Layer\bin\Debug\net
 C:\Users\PeterPlay\Documents\GitHub\HumleyChallenge\Business Layer\bin\Debug\netstandard2.0\Business Layer.dll
 C:\Users\PeterPlay\Documents\GitHub\HumleyChallenge\Business Layer\bin\Debug\netstandard2.0\Business Layer.pdb
 C:\Users\PeterPlay\Documents\GitHub\HumleyChallenge\Business Layer\bin\Debug\netstandard2.0\Data Layer.dll
-C:\Users\PeterPlay\Documents\GitHub\HumleyChallenge\Business Layer\bin\Debug\netstandard2.0\Newtonsoft.Json.dll
 C:\Users\PeterPlay\Documents\GitHub\HumleyChallenge\Business Layer\bin\Debug\netstandard2.0\Data Layer.pdb
-C:\Users\PeterPlay\Documents\GitHub\HumleyChallenge\Business Layer\bin\Debug\netstandard2.0\Newtonsoft.Json.xml
 C:\Users\PeterPlay\Documents\GitHub\HumleyChallenge\Business Layer\obj\Debug\netstandard2.0\Business Layer.csprojAssemblyReference.cache
 C:\Users\PeterPlay\Documents\GitHub\HumleyChallenge\Business Layer\obj\Debug\netstandard2.0\Business Layer.csproj.CoreCompileInputs.cache
 C:\Users\PeterPlay\Documents\GitHub\HumleyChallenge\Business Layer\obj\Debug\netstandard2.0\Business Layer.AssemblyInfoInputs.cache

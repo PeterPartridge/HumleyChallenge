@@ -12,7 +12,7 @@ namespace Business_Layer
 
         public async Task SendEmail(string key, string errorMessage)
         {
-            var client = new SendGridClient("ENTER-YOUR-API-KEY-HERE");
+            var client = new SendGridClient(key);
             var msg = new SendGridMessage();
 
             msg.SetFrom(new EmailAddress("info@noReply.com"));
